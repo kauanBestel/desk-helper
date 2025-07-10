@@ -1,0 +1,4 @@
+flask
+pyautogui
+Pillow
+requests
