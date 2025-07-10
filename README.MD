@@ -25,7 +25,7 @@ O projeto é dividido em duas partes principais:
 - [Node.js](https://nodejs.org/)
 - [Python](https://www.python.org/)
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-- [Ollama](https://ollama.ai/) (com o modelo `gemma3` baixado: `ollama pull gemma3`)
+- [Ollama](https://ollama.ai/) (com o modelo `gemma3`)
 
 ## Instalação e Uso
 
