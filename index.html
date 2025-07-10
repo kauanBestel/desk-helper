@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Leitor de Tela</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-gray-900 bg-opacity-90 flex items-center justify-center h-screen backdrop-blur-md"
+  >
+    <div
+      class="w-full max-w-3xl h-[90vh] bg-white/80 shadow-xl border border-gray-300 flex flex-col overflow-hidden"
+    >
+      <pre
+        id="output"
+        class="flex-1 overflow-y-auto px-6 py-4 text-sm leading-relaxed text-gray-900 whitespace-pre-wrap"
+      ></pre>
+
+      <div class="border-t px-4 py-3 bg-white/80 flex justify-start">
+        <button
+          id="captureBtn"
+          class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+        >
+          Ler Tela
+        </button>
+        <input class="w-screen border-1-gray" />
+      </div>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>
